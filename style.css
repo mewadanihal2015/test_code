@@ -1,0 +1,69 @@
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(120deg, #1b1b1b, #2c3e50);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/* Menu Container */
+.menu-container {
+  text-align: center;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2px solid #00ffc3;
+  border-radius: 20px;
+  box-shadow: 0 0 30px #00ffc3;
+}
+
+/* Title */
+.game-title {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  color: #00ffc3;
+}
+
+/* Menu Items */
+.menu {
+  list-style: none;
+}
+
+.menu-btn {
+  display: inline-block;
+  padding: 15px 40px;
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #00ffc3;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.menu-btn:hover {
+  background-color: #00ffc3;
+  color: #1b1b1b;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00ffc3;
+}
+
+.menu-btn.exit {
+  border-color: #ff5c5c;
+}
+
+.menu-btn.exit:hover {
+  background-color: #ff5c5c;
+  box-shadow: 0 0 15px #ff5c5c;
+  color: #fff;
+}
